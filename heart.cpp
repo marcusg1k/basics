@@ -6,7 +6,7 @@
 
 int main() {
     int a, z, size = 10; // letters in the heart and the size of the heart
-// you can change the letters in the int and the size for a zigger heart print
+// you can change the letters in the int and the size for a bigger heart print
     for(a = size/2; a <= size; a = a+2) 
     {
         for (z = 1; z < size-a; z = z+2)
