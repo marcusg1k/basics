@@ -19,7 +19,7 @@ int main()
         if(guess == correctnum) {
             std::cout << "Correct guess, you win!" << std::endl; 
             } else if (guesscount == guesslimit) {
-                std::cout << "Max attempts, you lose!" << std::endl; 
+            std::cout << "Max attempts, you lose!" << std::endl; 
             }
     }
     return 0;
